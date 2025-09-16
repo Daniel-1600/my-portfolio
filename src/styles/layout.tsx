@@ -1,20 +1,7 @@
-import { Space_Grotesk, IBM_Plex_Mono } from "next/font/google";
 import Head from "next/head";
 import Navbar from "@/components/Header/Navbar";
 import Footer from "@/components/Footer/Footer";
 import SideNavbar from "@/components/SideNavbar/SideNavbar";
-
-const spaceGrotesk = Space_Grotesk({
-  variable: "--font-Space_Grotesk",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-});
-
-const ibmPlexMono = IBM_Plex_Mono({
-  variable: "--font-IBM_Plex_Mono",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-});
 
 export default function RootLayout({
   children,

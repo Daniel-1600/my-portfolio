@@ -15,9 +15,13 @@ export default function Hero() {
     const email = process.env.NEXT_PUBLIC_TO_EMAIL;
     const subject = "Schedule a Call";
     const body = "Hi, I'd like to schedule a call.";
-    const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(
-      subject
-    )}&body=${encodeURIComponent(body)}`;
+    const mailtoLink =
+      "mailto:" +
+      email +
+      "?subject=" +
+      encodeURIComponent(subject) +
+      "&body=" +
+      encodeURIComponent(body);
     window.open(mailtoLink, "_blank");
   };
 
@@ -103,9 +107,9 @@ export default function Hero() {
             viewport={{ once: true }}
             className="text-[18px] text-light-gray-2 font-medium leading-[150%] mb-4"
           >
-            I'm a full stack developer with strong expertise in Javascript and
-            backend development using GO.I enjoy building scalable applications
-            and efficient backend systems.
+            I&apos;m a full stack developer with strong expertise in Javascript
+            and backend development using GO.I enjoy building scalable
+            applications and efficient backend systems.
           </motion.p>
 
           <motion.div
