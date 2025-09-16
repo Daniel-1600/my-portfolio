@@ -23,7 +23,7 @@ export default function CounterContainer() {
             <div className="flex-1 flex  flex-nowrap gap-[4px] h-min p-0 relative items-center overflow-visible justify-center  ">
               <div className="flex-none h-auto relative w-auto">
                 <div className="items-start justify-start text-[28px] font-bold text-very-light-gray ">
-                  <CountUp end={list.value} />
+                  <CountUp end={list.count} />
                 </div>
               </div>
               <div className="flex flex-shrink-0 flex-col justify-start float-none h-auto relative whitespace-pre w-auto">

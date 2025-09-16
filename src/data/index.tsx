@@ -80,6 +80,13 @@ interface pagesListsType {
   icon: React.ReactNode;
 }
 
+interface counterListsType {
+  id: number;
+  title: string;
+  count: number;
+  description: string;
+}
+
 export const pagesLists: pagesListsType[] = [
   {
     id: 1,
@@ -98,6 +105,33 @@ export const pagesLists: pagesListsType[] = [
     title: "Contact",
     href: "/contact",
     icon: <Mail />,
+  },
+];
+
+export const counterLists: counterListsType[] = [
+  {
+    id: 1,
+    title: "Projects Completed",
+    count: 25,
+    description: "Successful projects delivered",
+  },
+  {
+    id: 2,
+    title: "Happy Clients",
+    count: 18,
+    description: "Satisfied customers worldwide",
+  },
+  {
+    id: 3,
+    title: "Years Experience",
+    count: 3,
+    description: "Years in web development",
+  },
+  {
+    id: 4,
+    title: "Technologies Used",
+    count: 12,
+    description: "Different tech stacks mastered",
   },
 ];
 
