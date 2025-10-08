@@ -5,7 +5,7 @@ import SectionHeading from "@/components/SectionHeading";
 import { faqData } from "@/data";
 import Button from "@/components/ui/Button";
 import { Calendar1, Mail } from "lucide-react";
-import ContactForm from "@/components/contactForm/Form";
+import ContactForm from "@/components/ContactForm/Form";
 import FAQ from "@/components/FAQ/FAQ";
 
 export default function ContactPage() {

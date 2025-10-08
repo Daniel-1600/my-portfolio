@@ -3,7 +3,7 @@ import { calendarIcon, zapIcon } from "@/assets/assets";
 import MyStack from "@/components/MyStack/MyStack";
 import SectionHeading from "@/components/SectionHeading";
 import ShowCase from "@/components/ShowCase";
-import Testimonials from "@/components/Testimonials";
+// import Testimonials from "@/components/Testimonials";
 import { myServicesPlans } from "@/data";
 import Image from "next/image";
 import React from "react";
@@ -102,7 +102,7 @@ export default function SearvicesPage() {
 
         <MyStack />
         <ShowCase isMore={false} showData={4} />
-        <Testimonials />
+        {/* <Testimonials /> */}
       </div>
     </div>
   );
